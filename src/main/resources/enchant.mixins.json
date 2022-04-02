@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"minVersion": "0.8",
+	"package": "briancomics.enchant.command.fix.mixin",
+	"compatibilityLevel": "JAVA_16",
+	"mixins": [
+		"EnchantCommandMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
