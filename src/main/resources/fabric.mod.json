@@ -4,7 +4,7 @@
 	"version": "${version}",
 
 	"name": "Enchant Command Fix",
-	"description": "A Fabric mod that removes the /enchant command limit.",
+	"description": "This mod removes the limit and item restrictions on the /enchant command.",
 	"authors": [
 		"BrianComics#8994"
 	],
@@ -23,9 +23,9 @@
 	],
 
 	"depends": {
-		"fabricloader": ">=0.12.12",
+		"fabricloader": ">=0.14.6",
 		"fabric": "*",
-		"minecraft": "1.18.x",
+		"minecraft": "~1.19",
 		"java": ">=17"
 	},
 	"suggests": {
